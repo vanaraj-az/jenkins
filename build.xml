@@ -8,7 +8,8 @@ and open the template in the editor.
 <project name="Jenkins" default="all" basedir=".">
 
 <target name="all">
-    <mkdir dir="/home/vanaraj/public_html/jenkins-ci/build" />
+    <delete dir="/home/vanaraj/public_html/jenkins-ci/build"/>
+    <!--<mkdir dir="/home/vanaraj/public_html/jenkins-ci/build" />-->
 </target>
 
 </project>
